@@ -1,0 +1,21 @@
+{
+  "name": "ageless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amacattack/ageless.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amacattack/ageless/issues"
+  },
+  "homepage": "https://github.com/amacattack/ageless#readme"
+}
