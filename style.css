@@ -3,6 +3,10 @@ body {
     position: relative;
 }
 
+.logo {
+	max-height: 7vh;
+	max-width: 10vw;
+}
 header#hero {
     background-image: 
         linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)),
@@ -64,7 +68,7 @@ p {
 	width: 100vw;
 }
 
-.help-intro, .bio-intro, .event-intro, .media-intro{
+.help-intro, .bio-intro, .event-intro { 
     padding-bottom: 20px;
 	padding-top: 20px;
 	background-color: black;
@@ -88,6 +92,11 @@ p {
 .section.home-events {
     background-color: green;
     padding: 90px 0 45px;
+}
+
+.upcoming-events {
+	background-color: lightgrey;
+	padding-bottom: 90px;
 }
 
 .event-date {
@@ -132,8 +141,16 @@ h5.event-title {
     padding: 12px 25px;
 }
 
-.home-bottom {
-    padding-top: 90px;
+.media-intro{
+    padding-bottom: 20px;
+	background-color: black;
+	margin-bottom: 40px;
+}
+
+.anything-possible {
+	width: 100vw;
+	height: auto;
+	/* aspect-ratio: 16/9; */
 }
 
 .media-image {
@@ -150,6 +167,10 @@ h5.event-title {
     align-items: center;
 }
 
+#retreatPricing {
+	max-width: 60vw;
+	max-height: 60vh;
+}
 /* .testimonal-pic {
 	max-width: 100%;
 }

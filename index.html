@@ -13,6 +13,12 @@
       crossorigin="anonymous"
     />
 
+     <!-- Bootstrap Icons -->
+    <link 
+      rel="stylesheet" 
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    >
+
     <!-- Custom Styles -->
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
@@ -21,7 +27,9 @@
     <!-- NAVBAR -->
     <nav class="navbar sticky-top navbar-light bg-light">
       <div class="container-fluid" style="justify-content: center;">
-        <span class="navbar-brand mb-0 h1">AGELESS ANDREW</span>
+        <span class="navbar-brand mb-0 h1">
+          <img class="logo" src="img/ageless-logo.png">
+        </span>
       </div>
     </nav>
 
@@ -54,20 +62,20 @@
 
       <div class="help-intro">
         <h3 class="home-header">
-          <span>Th</span>
+          <span style="color: white">Th</span>
           <span style="color:#259944">e</span>
-          <span>Und</span>
+          <span style="color: white">Und</span>
           <span style="color:#259944">e</span>
-          <span>rground Playbook to Your Dr</span>
+          <span style="color: white">rground Playbook to Your Dr</span>
           <span style="color:#259944">e</span>
-          <span>am Lif</span>
+          <span style="color: white">am Lif</span>
           <span style="color:#259944">e</span>
           <!-- The Underground Playbook to Your Dream Life -->
         </h3>
-        <p>
+        <p style="color: white">
           Natural solutions designed around your time, lifestyle, and
           profession.
-        </p>
+        </p> 
       </div>
 
       <!-- MEMBERSHIP BADGES SECTION -->
@@ -78,14 +86,14 @@
       <!-- BIO SECTION -->
       <div class="bio-intro">
         <h4 class="home-header">
-          <span>Th</span>
+          <span style="color: white">Th</span>
           <span style="color:#259944">e</span>
-          <span>futur</span>
+          <span style="color: white">futur</span>
           <span style="color:#259944">e</span>
-          <span>is in your mind</span>
+          <span style="color: white">is in your mind</span>
           <!-- The future is in your mind -->
         </h4>
-        <p>
+        <p style="color: white">
           Ageless Andrew has spent the last 10 years creating miracles &
           revolutionizing lives.
         </p>
@@ -180,13 +188,13 @@
       <div class="upcoming-events">
         <div class="event-intro">
           <h4 class="home-header">
-            <span>Upcoming</span>
+            <span style="color: white">Upcoming</span>
             <span style="color:#259944">E</span>
-            <span>v</span>
+            <span style="color: white">v</span>
             <span style="color:#259944">e</span>
-            <span>nts</span>
+            <span style="color: white">nts</span>
           </h4>
-          <p>Immerse yourself with gratitude, love, and mother nature</p>
+          <p style="color: white">Immerse yourself with gratitude, love, and mother nature</p>
         </div>
         <div class="container">
           <div class="row">
@@ -206,8 +214,14 @@
                 Aspernatur mollitia, illo aliquam perspiciatis libero iste numquam similique architecto earum laudantium perferendis cupiditate expedita 
                 nemo, tempore asperiores ab quo natus a?
               </p>
-              <hr role="presentation">
-              <a href="#" class="btn" tabindex="0">VIEW FULL RETREAT DETAILS</a>
+              <!-- <i class="bi bi-arrow-down"></i> -->
+
+              <!-- Retreat Pricing Image -->
+              <img id="retreatPricing" src="img/retreatPricing.png" style="display: none;"/>
+              <button type="button" class="btn btn-primary" onclick="showPicture()">
+                  VIEW FULL RETREAT DETAILS
+              </button>
+              
             </div>
           </div>
         </div>
@@ -217,8 +231,9 @@
     <!-- MEDIA SECTION -->
     <section class="home-bottom">
       <div class="media-intro">
-        <h4 class="home-header">*IMAGINE ANYTHING IS POSSIBLE DESIGN*</h4>
-        <p>Stay Connected with Ageless Andrew's Juicing Challenge, Podcast, and Foundation.</p>
+        <img class="anything-possible" src="img/imagine-anything-possible.jpg">
+        <!-- <h4 class="home-header"></h4> -->
+        <p style="color: white">Stay Connected with Ageless Andrew's Juicing Challenge, Podcast, and Foundation.</p>
       </div>
 
       <div class="container">
@@ -229,8 +244,10 @@
           <div class="col-sm-3 media-image" style="background-image: url('http://placekitten.com/200/300');"></div>
         </div>
       </div>
-
     </section>
-
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
   </body>
 </html>
