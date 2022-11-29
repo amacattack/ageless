@@ -1,5 +1,6 @@
 body {
   position: relative;
+  background-color: black;
 }
 
 .logo {
@@ -10,7 +11,7 @@ body {
 header#hero {
   background-image: 
     linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)),
-    url("img/Glacier.jpg");
+    url("img/hero.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -22,16 +23,22 @@ header#hero {
 .hero-text {
 	font-size: 4.5rem;
 	font-family: "Centauri";
+  display: inline-block;
 }
 
 section {
   text-align: center;
 }
 
+.homepage-top {
+  background-color: black;
+}
+
 .home-intro {
   max-width: 900px;
   margin: 0 auto;
   padding: 60px;
+  color: white;
 }
 
 ul {
