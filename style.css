@@ -26,6 +26,10 @@ header#hero {
   display: inline-block;
 }
 
+.hero-subtext {
+  text-transform: uppercase;
+}
+
 section {
   text-align: center;
 }
@@ -40,37 +44,50 @@ section {
 }
 
 .headshot {
-  /* height: 40rem; */
 	max-width: 100%;
 	object-fit: cover;
 	overflow: hidden;
 }
 
-.bio-text {
+.intro-logo {
+  width: 20%;
+  padding-bottom: 1rem;
+}
+.bio-container {
   max-width: 900px;
   margin: 0 auto;
-  padding: 60px;
-  color: white;
+  padding: 0 60px 60px 60px;
 }
 
-ul {
-	list-style: none;
-	font-size: 30px;
-	text-align: center;
+.bio-text {
+  font-size: 20px;
+  color: white
+}
+.centauri {
+  font-family: "Centauri";
+  font-size: 14px;
+  font-weight: bolder;
+  /* display: inline-block;
+  transform: scale(1, 3); */
 }
 
+.motivation-header {
+  font-family: "Centauri";
+  color:#6FB74E;
+  text-align: center;
+}
 .motivation-text {
   padding-top: 160px;
-}
+  padding-right: 25px;
+  color: white;
+  text-align: center;
 
-.motivation-text ul {
-  font-size: 30px;
-  text-align: left;
 }
 
 .health-logo img {
 	height: 40rem;
 	width: 100%;
+  padding-top: 100px;
 	object-fit: cover;
 	overflow: hidden;
 }
@@ -86,6 +103,7 @@ p {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 20px;
+  margin-bottom: 80px;
   text-transform: uppercase;
 	text-align: center;
 	font-family: "Centauri";
@@ -106,10 +124,8 @@ p {
 }
 
 .help-intro, .bio-intro, .event-intro { 
-  /* padding-bottom: 20px; */
 	padding-top: 20px;
 	background-color: black;
-	/* margin-bottom: 40px; */
 }
 
 .home-bio {
@@ -134,10 +150,10 @@ p {
 }
 
 .event-date {
-    position: relative;
-    font-size: 24px;
-    text-transform: uppercase;
-    text-align: left;
+  position: relative;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: left;
 }
 
 .event.date p {
@@ -160,9 +176,10 @@ p {
 }
 
 h5.event-title {
-    font-size: 28px;
+    font-size: 27px;
     margin-bottom: 0px;
     margin-top: -5px;
+    /* text-align: center; */
 }
 
 .event-dates {
@@ -276,6 +293,15 @@ h5.event-title {
   font-size: 30px;
   text-align: center
 }
+
+.social-media {
+  background-color: white;
+}
+.socials {
+  display: inline-block;
+  padding: 20px;
+}
+
 /* .heading {
   text-align: center;
   color: #454343;
