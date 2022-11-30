@@ -11,11 +11,11 @@ body {
 header#hero {
   background-image: 
     linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)),
-    url("img/hero.jpg");
+    url("img/Glacier.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
-  padding: 20%;
+  padding: 10%;
   color: white; 
   text-align: center;
 }
@@ -35,6 +35,18 @@ section {
 }
 
 .home-intro {
+  margin: 0 auto;
+  padding: 60px;
+}
+
+.headshot {
+  /* height: 40rem; */
+	max-width: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+
+.bio-text {
   max-width: 900px;
   margin: 0 auto;
   padding: 60px;
@@ -69,23 +81,16 @@ p {
   margin: 0 0 2rem;
 }
 
-.first-header {
-	background-color: black;
-	color: white;
-	font-family: "Centauri";
-	font-size: 50px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-    text-transform: uppercase;
-	text-align: center;
-}
-
 .home-header {
-    font-size: 0px;
-    margin-top: 20px;
-    text-transform: uppercase;
+  font-size: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  text-transform: uppercase;
 	text-align: center;
 	font-family: "Centauri";
+  background-color: white;
+
 }
 
 .home-header span {
@@ -93,7 +98,7 @@ p {
 }
 
 .home-header + p {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .badges {
@@ -101,10 +106,10 @@ p {
 }
 
 .help-intro, .bio-intro, .event-intro { 
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 	padding-top: 20px;
 	background-color: black;
-	margin-bottom: 40px;
+	/* margin-bottom: 40px; */
 }
 
 .home-bio {
@@ -166,16 +171,17 @@ h5.event-title {
 }
 
 .btn {
+    border-radius: 10px;
     background-color: green;
     color: #f7f7f7;
     padding: 12px 25px;
 }
 
 .media-intro {
-  padding-bottom: 20px;
-	padding-top: 20px;
-	background-color: black;
+	padding-top: 10px;
+	background-color: white;
 	margin-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 .anything-possible {
@@ -245,7 +251,31 @@ h5.event-title {
 	text-decoration: none;
 	cursor: pointer;
 }
-  
+
+.contact-header {
+  padding-top: 50px;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+.card {
+  width: 50vw;
+  height: 50vh;
+  align-items: center;
+  margin-left: 25%;
+  background-color: #f7f7f7;
+  border-radius: 25px;
+}
+
+.card-body {
+  padding-top: 15%;
+}
+
+.card-title {
+  font-size: 30px;
+  text-align: center
+}
 /* .heading {
   text-align: center;
   color: #454343;
